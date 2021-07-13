@@ -1,7 +1,8 @@
 import './App.css';
 import React, { Component } from 'react';
 //import DisplayName from './Components/DisplayName/displayName';
-import NameList from './Components/NamesList/nameList';
+//import NameList from './Components/NamesList/nameList';
+import AlertUser from './Components/AlertUser/alertUser';
 
 class App extends Component {
   constructor(props) {
@@ -13,7 +14,8 @@ class App extends Component {
   render() { 
     return ( 
       //<DisplayName firstName={this.state.firstName} lastName={this.state.lastName} />
-        <NameList nameList={this.state.names} />
+        //<NameList nameList={this.state.names} />
+        <AlertUser />
      );
   }
 }

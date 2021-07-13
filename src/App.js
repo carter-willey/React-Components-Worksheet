@@ -1,5 +1,6 @@
 import './App.css';
 import React, { Component } from 'react';
+import DisplayName from './Components/DisplayName/displayName';
 
 class App extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class App extends Component {
   }
   render() { 
     return ( 
-      <h1>Hello C</h1>
+      <DisplayName firstName={this.state.firstName} lastName={this.state.lastName} />
      );
   }
 }

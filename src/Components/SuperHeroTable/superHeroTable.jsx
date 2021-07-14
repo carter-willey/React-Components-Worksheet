@@ -9,7 +9,7 @@ const SuperHeroTable = (props) => {
          <tr>
         <td>{hero.name}</td>
         <td>{hero.primaryAbility}</td>
-        <td>{hero.secondarAbility}</td>
+        <td>{hero.secondaryAbility}</td>
 
         </tr>
         <hr />
